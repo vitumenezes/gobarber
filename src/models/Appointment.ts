@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 import {
   Entity,
   Column,
@@ -26,10 +27,10 @@ class Appointment {
   date: Date;
 
   @CreateDateColumn()
-  Created_At: Date;
+  created_at: Date;
 
   @UpdateDateColumn()
-  Updated_At: Date;
+  updated_at: Date;
 }
 
 export default Appointment;

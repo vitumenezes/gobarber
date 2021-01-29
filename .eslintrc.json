@@ -22,16 +22,16 @@
         "prettier"
     ],
     "rules": {
+      "@typescript-eslint/camelcase": "off",
+      "prettier/prettier": "error",
+      "class-methods-use-this": "off",
         "import/extensions": [
             "error",
             "ignorePackages",
             {
               "ts": "never"
             }
-          ],
-        "prettier/prettier": "error",
-        "class-methods-use-this": "off",
-        "@typescript-eslint/camelcase": "off"
+        ]
     },
     "settings": {
         "import/resolver": {

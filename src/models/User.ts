@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 import {
   Entity,
   Column,
@@ -6,7 +7,7 @@ import {
   UpdateDateColumn,
 } from 'typeorm';
 
-@Entity('user')
+@Entity('users')
 class User {
   @PrimaryGeneratedColumn('uuid')
   id: string;
@@ -21,10 +22,10 @@ class User {
   password: string;
 
   @CreateDateColumn()
-  Created_At: Date;
+  created_at: Date;
 
   @UpdateDateColumn()
-  Updated_At: Date;
+  updated_at: Date;
 }
 
 export default User;
