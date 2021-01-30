@@ -26,13 +26,16 @@
       "camelcase": "off",
       "prettier/prettier": "error",
       "class-methods-use-this": "off",
-        "import/extensions": [
-            "error",
-            "ignorePackages",
-            {
-              "ts": "never"
-            }
-        ]
+      "@typescript-eslint/no-unused-vars": ["errors", {
+        "argsIgnorePattern": "_"
+      }],
+      "import/extensions": [
+          "error",
+          "ignorePackages",
+          {
+            "ts": "never"
+          }
+      ]
     },
     "settings": {
         "import/resolver": {
