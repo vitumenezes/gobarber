@@ -22,7 +22,8 @@
         "prettier"
     ],
     "rules": {
-      "@typescript-eslint/camelcase": "off",
+      // "@typescript-eslint/camelcase": "off",
+      "camelcase": "off",
       "prettier/prettier": "error",
       "class-methods-use-this": "off",
         "import/extensions": [
